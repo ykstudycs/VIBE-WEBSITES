@@ -226,13 +226,30 @@ h1, h2, h3, h4 {
 .hero-section {
     position: relative;
     min-height: 84vh;
-    background: url('../assets/images/1.jpeg'),url('https://images.unsplash.com/photo-1590766940554-634a7ed41450?auto=format&fit=crop&w=1600&q=80') center center / cover no-repeat;
+    background-image: 
+        url('../assets/images/1.jpeg'),
+        url('https://images.unsplash.com/photo-1590766940554-634a7ed41450?auto=format&fit=crop&w=1600&q=80');
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: no-repeat, no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     padding: 50px 20px;
 }
+
+
+/*.hero-section {
+    position: relative;
+    min-height: 84vh;
+    background: url('../assets/images/1.jpeg'),url('https://images.unsplash.com/photo-1590766940554-634a7ed41450?auto=format&fit=crop&w=1600&q=80') center center / cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+}*/
 
 /*
 .hero-overlay {
