@@ -226,7 +226,7 @@ h1, h2, h3, h4 {
 .hero-section {
     position: relative;
     min-height: 84vh;
-    background: url('../assets/images/1.jpeg') center center / cover no-repeat;
+    background: url('../assets/images/1.jpeg'),url('https://images.unsplash.com/photo-1590766940554-634a7ed41450?auto=format&fit=crop&w=1600&q=80') center center / cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
